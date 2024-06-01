@@ -150,11 +150,13 @@ class _QuestionScreenState extends State<QuestionScreen> {
   Color getRightAnswer(int index) {
     if (selectedindex != null &&
         index == Questiondb.questions[questionindex]["answer"]) {
-      return Colorconstant.mycoustomgreen;
+      return Colorconstant.mycoustomright;
+      // return Colorconstant.mycoustomgreen;
     }
     if (selectedindex == index) {
       if (selectedindex == Questiondb.questions[questionindex]["answer"]) {
-        return Colorconstant.mycoustomgreen;
+        return Colorconstant.mycoustomright;
+        // return Colorconstant.mycoustomgreen;
       } else {
         return Colorconstant.mycoustomred;
       }

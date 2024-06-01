@@ -29,7 +29,8 @@ class ResultScreen extends StatelessWidget {
             Text(
               "${percentage}%score",
               style:
-                  TextStyle(color: Colorconstant.mycoustomgreen, fontSize: 30),
+                  TextStyle(color: Colorconstant.mycoustomright, fontSize: 30),
+              // TextStyle(color: Colorconstant.mycoustomgreen, fontSize: 30),
             ),
             SizedBox(height: 20),
             ElevatedButton(
