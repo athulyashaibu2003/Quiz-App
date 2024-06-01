@@ -6,6 +6,7 @@ class Colorconstant {
   static const Color mycoustomred = Color(0xfff94934);
   static const Color mycoustomgrey = Color(0xff323232);
   static const Color mycoustomwhite = Color(0xffffffff);
-  static const Color mycoustomgreen = Color(0xff55df01);
+  // static const Color mycoustomgreen = Color(0xff55df01);
+  static const Color mycoustomright = Color.fromARGB(255, 247, 0, 255);
   static const Color mycoustomorange = Color(0xffe78230);
 }
